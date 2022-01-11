@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Head from 'next/head';
 import { useState } from 'react';
 import { fadeInUp, stagger } from '../animations';
 import ProjectCard from "../components/ProjectCard";
@@ -40,6 +41,11 @@ const Projects = () => {
         exit="exit"
         
         className="p-4 overflow-y-scroll" style={{ height:'75vh' }}>
+
+<Head>
+      <title>Web Developer | Projects | Sunny</title>
+    </Head>
+
              <ProjectNavBar handleFilterCategory={handleFilterCategory} active={active}/>
             <motion.div
             variants={stagger }

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Head from 'next/head';
 import { fadeInUp } from "../animations";
 import Bar from "../components/Bar";
 import { languages } from "../data";
@@ -14,6 +15,11 @@ const resume = () => {
     initial="initial"
     animate="animate"
     className="px-6 py-2">
+
+      
+<Head>
+      <title>Web Developer | Resume | Sunny</title>
+    </Head>
       {/* education and experience */}
 
       <div className="grid gap-6 md:grid-cols-2">

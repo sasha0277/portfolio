@@ -1,6 +1,7 @@
  // import { GetStaticPropsContext } from 'next';
 import { motion } from "framer-motion";
 import { GetServerSidePropsContext } from 'next';
+import Head from 'next/head';
 import { fadeInUp, routeAnimation, stagger } from "../animations";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
@@ -15,8 +16,13 @@ export default function Home({endpoint}) {
     initial="initial"
     animate="animate"
     exit="exit"
-    
-    className="flex flex-col flex-grow px-6 pt-1">
+
+ className="flex flex-col flex-grow px-6 pt-1">
+
+    <Head>
+      <title>Web Developer | Portfolio | Sunny</title>
+    </Head>
+
       <h5 className="my-1 font-medium">
         I have completed my Web development from Erhvervsakademi Sjælland .My
         skills include HTML/CSS/Sass, Java,JavaScript , React.JS & SQL Server

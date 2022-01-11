@@ -31,13 +31,13 @@ const Sidebar = () => {
                  
                 {/* social icons  */}
                 <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-                    <a href="http://">
-                        <AiFillLinkedin className="w-8 h-8 cursor-pointer"/>
+                    <a href="https://www.linkedin.com/in/sonny-sharma-b6baa5a3/">
+                        <AiFillLinkedin className="w-8 h-8 cursor-pointer" aria-label='LinkedIn'/>
                     </a>
                     <a href="">
-                        <AiFillYoutube className="w-8 h-8 cursor-pointer"/>
+                        <AiFillYoutube className="w-8 h-8 cursor-pointer" aria-label='YouTube'/>
                     </a>
-                    <a href="http://">
+                    <a href="https://github.com/sasha0277/"  aria-label='GitHub'>
                         <AiFillGithub className="w-8 h-8 cursor-pointer"/>
                     </a>
                 </div>

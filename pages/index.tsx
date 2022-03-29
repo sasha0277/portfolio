@@ -7,7 +7,6 @@ import ServiceCard from '../components/ServiceCard';
 import { services } from '../data';
 
 export default function Home({ endpoint }) {
-  console.log(endpoint);
   return (
     <motion.div
       variants={routeAnimation}

@@ -122,7 +122,7 @@ export const projects: IProject[] = [
     name: 'House Listing',
     description: 'This app for testing purposes',
     image_path: '/images/HousingProject.png',
-    deployed_url: 'https://github.com/sonny-sharma',
+    deployed_url: 'https://houserentsell.vercel.app',
     github_url: 'https://github.com/sonny-sharma',
     category: ['react'],
     key_tech: ['react', 'Firebase'],

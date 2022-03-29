@@ -1,4 +1,4 @@
-import Document, { Head, Html, Main, NextScript } from "next/document";
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
   render() {
@@ -10,15 +10,9 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto&display=swap"
             rel="stylesheet"
           />
-          <meta
-          name="description"
-          content ="React developer looking for job"
-          />
+          <meta name="description" content="React developer looking for job" />
 
-          <meta
-          name="keywords"
-          content ="Full Stack Web Developer"
-          />
+          <meta name="keywords" content="Frontend Web Developer" />
         </Head>
 
         <body className="bg-fixed bg-gradient-to-r from-green to-blue-400 dark:from-dark-500 dark:to-dark-700 dark:text-white">
